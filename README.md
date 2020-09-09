@@ -1,24 +1,26 @@
-# README
+# Digital wallet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+É um projeto que tem como objetivo treinar habilidades em ruby on rails, oriundo do curso do **Jackson Pires**.
 
-Things you may want to cover:
+### Dependências:
 
-* Ruby version
+* Ruby 2.7
 
-* System dependencies
+* Ruby on Rails 5.2.0
 
-* Configuration
+* SqLite
 
-* Database creation
+### Funcionalidades
+* Cadastrar moedas digitais
+* Editar moedas
+* Listar moedas
+* Excluir moedas
+* Cadastrar categorias de moedas
+* Editar categorias
+* listar categorias
+* Excluir categorias
 
-* Database initialization
+### Como utilizar
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Efetue o git clone do projeto
+* Rode o bundle install
