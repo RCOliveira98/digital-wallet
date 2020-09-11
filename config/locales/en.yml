@@ -31,3 +31,19 @@
 
 en:
   hello: "Hello world"
+  links:
+    edit: 'Edit'
+    create: 'Create'
+    update: 'Update'
+    delete: 'Delete'
+    destroy: 'Destroy'
+    new: 'New'
+  dialogs:
+    edit: 'Edit'
+    create: 'Create'
+    update: 'Update'
+    delete: 'Delete'
+    destroy: 'Delete'
+    new: 'New'
+    confirm: 'Are you sure?'
+
