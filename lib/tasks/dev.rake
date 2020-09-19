@@ -33,26 +33,38 @@ namespace :dev do
       {
         description: 'Bitcoin',
         acronym: 'BTC',
-        url_image: 'https://toppng.com/uploads/preview/bitcoin-png-bitcoin-logo-transparent-background-11562933997uxok6gcqjp.png',
-        mining_type_id: mining_types.sample().id
+        url_image: 'https://lh3.googleusercontent.com/proxy/b2mgnN_hNS7gY9qdJaDkrf5JSrNsdC4ETEaaNBNS2AMs_nTeuVGKB98wVwCP6L5VKs9Pne61-lCnLMhadjXc2aCfaOqk1OcyoT8-EuF5YHXqM9W2hwM',
+        mining_type: mining_types.sample()
       },
       {
         description: 'Ethereum',
         acronym: 'ETC',
-        url_image: 'https://img2.gratispng.com/20180703/ozg/kisspng-ethereum-bitcoin-cryptocurrency-logo-litecoin-mine-5b3b57d6d70373.0863840815306157668807.jpg',
-        mining_type_id: mining_types.sample().id
+        url_image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/ETHEREUM-YOUTUBE-PROFILE-PIC.png/600px-ETHEREUM-YOUTUBE-PROFILE-PIC.png',
+        mining_type: mining_types.sample()
       },
       {
-        description: 'XRP',
+        description: 'RIPPLE XRP',
         acronym: 'XRP',
-        url_image: 'https://www.pngfind.com/pngs/m/17-170065_xrp-symbol-xrp-new-logo-png-transparent-png.png',
-        mining_type_id: mining_types.sample().id
+        url_image: 'https://www.iconfinder.com/data/icons/crypto-currency-and-coin-2/256/ripple_xrp_coin-512.png',
+        mining_type: mining_types.sample()
       },
       {
         description: 'Binance coin',
         acronym: 'BNC',
         url_image: 'https://assets.coingecko.com/coins/images/825/large/binance-coin-logo.png?1547034615',
-        mining_type_id: mining_types.sample().id
+        mining_type: mining_types.sample()
+      },
+      {
+        description: ' Tether',
+        acronym: 'TTH',
+        url_image: 'https://seeklogo.com/images/T/tether-usdt-logo-FA55C7F397-seeklogo.com.png ',
+        mining_type: mining_types.sample()
+      },
+      {
+        description: 'Litecoin',
+        acronym: 'LTC',
+        url_image: 'https://www.iconfinder.com/data/icons/cryptocurrency-round-black-transparency/128/Blockchain_cryptocurrency_currency_litecoin_ltc_3-512.png',
+        mining_type: mining_types.sample()
       }
     ]
   end
