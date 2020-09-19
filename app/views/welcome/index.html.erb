@@ -1,10 +1,7 @@
-<h1><%= welcome_message() %></h1>
-
-<h4>
- A melhor plataforma no mundo das moedas digitais!
-</h4>
-
-<ul>
-    <li><%= link_to "Moedas", coins_path %></li>
-    <li><%= link_to "Tipos de mineração", mining_types_path %></li>
-</ul>
+<div class="jumbotron">
+  <h1 class="display-4"><%= welcome_message() %></h1>
+  <p class="lead">Uma aplicação para cuidar do gerenciamento (cadastro, consulta e remoção) de suas criptomoedas.</p>
+  <hr class="my-4">
+  <p>Comece acessando as opções abaixo: </p>
+  <%= render 'menu' %>
+</div>
